@@ -7,6 +7,7 @@ footer {grid-area: footer;}
 body>* {text-align: center;vertical-align: middle;}
 
 *{
+    
     box-sizing: border-box;padding: 0;margin: 0;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -83,3 +84,175 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+.pista{
+  z-index: 0;
+  position: absolute;
+  top: 60%;
+  left: 34%;
+  height: 125%;
+  
+}
+.carro1{
+  z-index: 1;
+  position: absolute;
+  top: 158%;
+  left: 52.5%;
+   
+}
+.carro2{
+  z-index: 1;
+  position: absolute;
+  top: 139.5%;
+  left: 52.25%;
+   
+}
+.carro3{
+  z-index: 1;
+  position: absolute;
+  top: 148.5%;
+  left: 36.75%;
+}
+.carro4{
+  z-index: 1;
+  position: absolute;
+  top: 129.75%;
+  left: 36.75%;
+}
+.carro5{
+  z-index: 1;
+  position: absolute;
+  top: 121.90%;
+  left: 52.25%;
+}
+.carro6{
+  z-index: 1;
+  position: absolute;
+  top: 103.50%;
+  left: 52.25%;
+}
+.carro7{
+  z-index: 1;
+  position: absolute;
+  top: 85.5%;
+  left: 52%;
+}
+.carro8{
+  z-index: 1;
+  position: absolute;
+  top: 94%;
+  left: 36.50%;
+}
+.carro9{
+  z-index: 1;
+  position: absolute;
+  top: 76%;
+  left: 36.75%;
+}
+.carro10{
+  z-index: 1;
+  position: absolute;
+  top: 111.75%;
+  left: 36.75%;
+}
+
+table{
+  padding: 15px;
+  border:solid lightgray;
+  background-color: #333;
+  color: white;
+  border-collapse: collapse;
+}
+
+@media only screen and
+(max-width: 600px) {
+/* For tablets: */
+.pista{
+  z-index: 0;
+  position: absolute;
+  top: 60%;
+  left: 34%;
+  height: 125%;
+  
+}
+.carro1{
+  z-index: 1;
+  position: absolute;
+  top: 158%;
+  left: 52.5%;
+   
+}
+.carro2{
+  z-index: 1;
+  position: absolute;
+  top: 139.5%;
+  left: 52.25%;
+   
+}
+.carro3{
+  z-index: 1;
+  position: absolute;
+  top: 148.5%;
+  left: 36.75%;
+}
+.carro4{
+  z-index: 1;
+  position: absolute;
+  top: 129.75%;
+  left: 36.75%;
+}
+.carro5{
+  z-index: 1;
+  position: absolute;
+  top: 121.90%;
+  left: 52.25%;
+}
+.carro6{
+  z-index: 1;
+  position: absolute;
+  top: 103.50%;
+  left: 52.25%;
+}
+.carro7{
+  z-index: 1;
+  position: absolute;
+  top: 85.5%;
+  left: 52%;
+}
+.carro8{
+  z-index: 1;
+  position: absolute;
+  top: 94%;
+  left: 36.50%;
+}
+.carro9{
+  z-index: 1;
+  position: absolute;
+  top: 76%;
+  left: 36.75%;
+}
+.carro10{
+  z-index: 1;
+  position: absolute;
+  top: 111.75%;
+  left: 36.75%;
+}
+
+
+
+
+
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+}
+
+
