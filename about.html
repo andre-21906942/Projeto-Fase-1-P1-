@@ -133,6 +133,84 @@
                     <td>Unused</td>
                 </tr>
             </table>
+
+
+
+            <form autocomplete="on">
+                <fieldset>
+                 <legend>Identification</legend>
+                  <p>Nome: <input type = "text" name = "nome" autocomplete autofocus></p>
+                  <p>Idade: <input type = "text" name = "nome"size="4" maxlength="4"></p>
+                  <p>Email: <input type = "email" name = "nome" autocomplete="off" required></p>
+                  <input type="submit" value="Submit" class="button">
+        
+                </fieldset>
+            </form>
+        
+            <form method = "post" action="mailto:andre.22.pbss@gmail.com ">
+                <fieldset>
+                  <legend>Quizz about Formula1</legend>
+                  <p>How many teams race in Formula 1?</p>
+                  <input type = "text" name = "nome" value ="???">
+                    <div>
+                  <p>How many champioships has Lewis Hamilton won</p>
+                  <input type = "text" name = "nome" value ="???">
+                   
+                  <section><p>Which Team has won the most champioships?</p></section>
+                  <input type = "text" name = "nome" value ="???">
+                    
+                    </div>
+                    
+                  <p>For which team does Nicholas Latifi race?</p>
+                  <input type = "radio" id = "number1" name = "size" value = "1,568.737 km2">
+                  <label for="team1">Ferrari</label>
+                  <br>
+                  <input type = "radio" id = "number2" name = "size" value = "1,668.737 km2">
+                  <label for="team2">Alpine</label>
+                  <br>
+                  <input type = "radio" id = "number3" name = "size" value = "1,768.737 km2">
+                  <label for="team3">Williams</label>
+                    <div>
+                  <p>Which driver drives for Red Bull?</p>
+        
+                  <input type="checkbox" id= "language1" name ="language1" value ="English">
+                  <label for="language1">Pierre Gasly</label>
+                  <br>
+                  <input type="checkbox" id= "language2" name ="language2" value ="Indian">
+                  <label for="language1">Max Verstappen</label>
+                  <br>
+                  <input type="checkbox" id= "language3" name ="language3" value ="Thai">
+                  <label for="language1">Carlos Sainz</label>
+                    
+                  <p>When was Valtteri Bottas born?</p>
+        
+                  <input type="date" id = "date" name ="date" value = "28/08/1989">
+                  <br>
+                    </div>
+                  <p>What color is the Ferrari car?</p>
+        
+                  <input type="color" name="color" id="color" value="#ff0000">
+        
+                  <p>How many drivers race in Formula 1?</p>
+                  <label for="nrDistricts">between 0 and 50:</label>
+                  <input type="range" id = "nrDistricts" name="nrDistricts" min="0" max="50" value = "0" oninput="nr.value = parseInt(nrDistricts.value)">
+                  <output name="nr" for="nrDistricts">0</output>
+        
+                  <p>Where is the location of Haas's base?</p>
+                  <select name="monument" multiple>
+                      <option value="Eiffel Tower">Italy</option>
+                      <option value="Grand Palace">Great Britain</option>
+                      <option value="Wat Arun">United States</option>
+                      <option value="Tokyo Tower">Switzerland</option>
+                  </select>
+                  
+        
+                  <p>If you were to rate your enjoyment of this quizz what would you rate it out of 5?</p>
+                  
+                  <input type="number" id ="rating" name ="rating" min="0" max="5" placeholder="5" step="1">
+                  <br>
+                  <br>
+                  <input type="image" src="img/Screenshot 2021-04-19 170810.jpg" alt="submit" width="120" height="60" value="Send email">
         </main>
         <footer>
             
