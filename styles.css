@@ -24,16 +24,18 @@ body{
     grid-gap: 10px;
     padding: 10px;
 }
-
+.I{
+  background-color: red;
+}
 .navbar {
     overflow: hidden;
     background-color: #333;
   }
-  
+ 
   .navbar a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: rgba(255, 255, 255, 0.966);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -84,14 +86,7 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   }
-.pista{
-  z-index: 0;
-  position: absolute;
-  top: 60%;
-  left: 34%;
-  height: 125%;
-  
-}
+
 .carro1{
   z-index: 1;
   position: absolute;
@@ -103,56 +98,56 @@ body{
   z-index: 1;
   position: absolute;
   top: 139.5%;
-  left: 52.5%;
+  left: 52.25%;
    
 }
 .carro3{
   z-index: 1;
   position: absolute;
   top: 148.5%;
-  left: 37.25%;
+  left: 34%;
 }
 .carro4{
   z-index: 1;
   position: absolute;
   top: 129.75%;
-  left: 37.25%;
+  left: 34%;
 }
 .carro5{
   z-index: 1;
   position: absolute;
   top: 121.90%;
-  left: 52.5%;
+  left: 52.25%;
 }
 .carro6{
   z-index: 1;
   position: absolute;
   top: 103.50%;
-  left: 52.5%;
+  left: 52.25%;
 }
 .carro7{
   z-index: 1;
   position: absolute;
-  top: 85%;
-  left: 52.5%;
+  top: 68%;
+  left: 52%;
 }
 .carro8{
   z-index: 1;
   position: absolute;
-  top: 93.4%;
-  left: 37.25%;
+  top: 94%;
+  left: 34%;
 }
 .carro9{
   z-index: 1;
   position: absolute;
-  top: 75.5%;
-  left: 37.25%;
+  top: 45%;
+  left: 34%;
 }
 .carro10{
   z-index: 1;
   position: absolute;
-  top: 111.2%;
-  left: 37.25%;
+  top: 111.75%;
+  left: 34%;
 }
 
 table{
@@ -162,17 +157,55 @@ table{
   color: white;
   border-collapse: collapse;
 }
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 10s infinite  alternate;
+}
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 10s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(-200px); }
+  100% { transform: translateY(-10000px); }
+}
+@keyframes mover {
+  0% { transform: translateY(-200px); }
+  100% { transform: translateY(-10000px); }
+}
+
+
+
+.b:link{
+  color: aqua;
+}
+.b:visited{
+  color: rgb(77, 77, 77);
+}
+.b:active{
+  color: blue;
+} 
+.b:hover{
+  color: red;
+}
 
 @media only screen and
 (max-width: 600px) {
 /* For tablets: */
+
+
 .pista{
   z-index: 0;
   position: absolute;
   top: 60%;
   left: 34%;
-  height: 125%;
-  
+  height: auto;
 }
 .carro1{
   z-index: 1;
